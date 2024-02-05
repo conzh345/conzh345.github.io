@@ -4,10 +4,12 @@
   margin-right: auto;
 }
 div {
+  width: 678px;
   padding: 10px;
   border: 1px solid black;
   border-color: #FADADD;
   margin: 5px;
   font-family: verdana;
   font-size: 14px;
+  text-align: center;
 }

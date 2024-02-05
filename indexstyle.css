@@ -5,7 +5,8 @@
 }
 div {
   padding: 10px;
-  border: 1px #FADADD;
+  border: 1px solid black;
+  border-color: #FADADD;
   margin: 5px;
   font-family: verdana;
   font-size: 14px;

@@ -1,25 +1,24 @@
-.header{
-  text-align: center;
-  background: #36BA98;
-  width: 100%;
-  color: black;
-}
 .center{
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+.body{
+  margin-left:15%;
+  margin-top:1%;
+  padding:1px 16px;
+  height:1000px;
+}
 
 /*Navbar*/
 ul {
   list-style-type: none;
-  margin: 0;
+  margin:0;
   padding: 0;
-  width: 15%;
   background-color: #f1f1f1;
-  position: fixed;
   height: 100%;
-  overflow: auto;
+  overflow:auto;
+  position:sticky;
 }
 
 li a {
@@ -30,11 +29,11 @@ li a {
 }
 
 li a.active {
-  background-color: #E9C46A;
+  background-color: #31cb7c;
   color: white;
 }
 
 li a:hover:not(.active) {
-  background-color: #F4A261;
+  background-color: #1c7748;
   color: white;
 }

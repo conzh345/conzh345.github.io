@@ -15,7 +15,7 @@ ul {
   list-style-type: none;
   margin:0;
   padding: 0;
-  background-color: #f1f1f1;
+  background-color: #E1D9D1;
   height: 100%;
   overflow:auto;
   min-height: 100vh;
@@ -30,10 +30,8 @@ li a {
 
 li a.active {
   background-color: #31cb7c;
-  color: white;
 }
 
 li a:hover:not(.active) {
-  background-color: #1c7748;
-  color: white;
+  background-color: #31cb7c;
 }

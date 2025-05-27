@@ -19,6 +19,7 @@ ul {
   height: 100%;
   overflow:auto;
   min-height: 100vh;
+  height: 100%;
 }
 
 li a {
@@ -34,4 +35,8 @@ li a.active {
 
 li a:hover:not(.active) {
   background-color: #31cb7c;
+}
+
+#nav-placeholder {
+  height: 100%;
 }

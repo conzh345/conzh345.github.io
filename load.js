@@ -4,7 +4,7 @@ $(function(){
                 const currentURL = window.location.href.split('/').pop();
                 
                 document.querySelectorAll('.nav-link').forEach(link => {
-                link.classList.remove('active');
+                        link.classList.remove('active');
                 });
                 
                 switch(currentURL) {
